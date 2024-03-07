@@ -1,8 +1,13 @@
 package com.bermaker;
 
-import java.sql.*;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
 
-public class App {
+public class DemoWithDriver {
 
   public static void main(String[] args) {
     // Database connection parameters
@@ -40,7 +45,7 @@ public class App {
       // 2. DML: insert some items into the table
       pstmt = conn.prepareStatement("INSERT INTO people (name) VALUES (?)");
       String[] names = {"Adam", "Bill", "Charles"};
-      for (String name: names) {
+      for (String name : names) {
         pstmt.setString(1, name);
         int ret = pstmt.executeUpdate();
         System.out.println("Result of insertion is " + ret);
