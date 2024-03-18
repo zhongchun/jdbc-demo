@@ -14,7 +14,7 @@ public class DemoWithDataSource {
     dataSource.setURL("jdbc:mysql://localhost:3307/testdb");
     dataSource.setUser("root");
     // No need to set password if password is empty. Setting an empty string is acceptable.
-//    dataSource.setPassword("");
+    // dataSource.setPassword("");
 
     Connection conn = null;
     Statement stmt = null;

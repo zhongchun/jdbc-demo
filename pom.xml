@@ -29,6 +29,24 @@
             <version>5.1.0</version>
         </dependency>
 
+<!--        <dependency>-->
+<!--            <groupId>simple-jndi</groupId>-->
+<!--            <artifactId>simple-jndi</artifactId>-->
+<!--            <version>0.11.4.1</version>-->
+<!--        </dependency>-->
+
+        <dependency>
+            <groupId>com.github.h-thurow</groupId>
+            <artifactId>simple-jndi</artifactId>
+            <version>0.24.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.h2database</groupId>
+            <artifactId>h2</artifactId>
+            <version>1.4.200</version>
+        </dependency>
+
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
