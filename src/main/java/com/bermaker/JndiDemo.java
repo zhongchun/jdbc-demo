@@ -1,6 +1,8 @@
 package com.bermaker;
 
 import org.osjava.sj.MemoryContextFactory;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import javax.naming.Context;
 import javax.naming.InitialContext;
@@ -11,7 +13,10 @@ import java.sql.Statement;
 
 public class JndiDemo {
 
+  private static final Logger LOG = LoggerFactory.getLogger(JndiDemo.class);
+
   public static void main(String[] args) {
+    LOG.info("Start to running jndi ...");
 
     MemoryContextFactory mf = null;
 

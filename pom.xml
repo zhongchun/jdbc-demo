@@ -29,11 +29,17 @@
             <version>5.1.0</version>
         </dependency>
 
-<!--        <dependency>-->
-<!--            <groupId>simple-jndi</groupId>-->
-<!--            <artifactId>simple-jndi</artifactId>-->
-<!--            <version>0.11.4.1</version>-->
-<!--        </dependency>-->
+        <dependency>
+            <groupId>com.h2database</groupId>
+            <artifactId>h2</artifactId>
+            <version>1.4.200</version>
+        </dependency>
+
+        <!--        <dependency>-->
+        <!--            <groupId>simple-jndi</groupId>-->
+        <!--            <artifactId>simple-jndi</artifactId>-->
+        <!--            <version>0.11.4.1</version>-->
+        <!--        </dependency>-->
 
         <dependency>
             <groupId>com.github.h-thurow</groupId>
@@ -41,11 +47,31 @@
             <version>0.24.0</version>
         </dependency>
 
+        <!-- Log settings -->
+        <!--        &lt;!&ndash; SLF4J API &ndash;&gt;-->
+        <!--        <dependency>-->
+        <!--            <groupId>org.slf4j</groupId>-->
+        <!--            <artifactId>slf4j-api</artifactId>-->
+        <!--            <version>1.7.36</version>-->
+        <!--        </dependency>-->
+        <!-- Log4j2 SLF4J Binding -->
         <dependency>
-            <groupId>com.h2database</groupId>
-            <artifactId>h2</artifactId>
-            <version>1.4.200</version>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-slf4j-impl</artifactId>
+            <version>2.17.1</version>
         </dependency>
+        <!--        &lt;!&ndash; Log4j2 Core &ndash;&gt;-->
+        <!--        <dependency>-->
+        <!--            <groupId>org.apache.logging.log4j</groupId>-->
+        <!--            <artifactId>log4j-core</artifactId>-->
+        <!--            <version>2.17.1</version>-->
+        <!--        </dependency>-->
+        <!--        &lt;!&ndash; Log4j2 API &ndash;&gt;-->
+        <!--        <dependency>-->
+        <!--            <groupId>org.apache.logging.log4j</groupId>-->
+        <!--            <artifactId>log4j-api</artifactId>-->
+        <!--            <version>2.17.1</version>-->
+        <!--        </dependency>-->
 
         <dependency>
             <groupId>junit</groupId>
