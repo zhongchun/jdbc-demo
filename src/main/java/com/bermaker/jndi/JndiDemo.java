@@ -20,9 +20,9 @@ public class JndiDemo {
     System.setProperty("org.osjava.sj.jndi.trace", "true");
     System.setProperty(Context.INITIAL_CONTEXT_FACTORY, "org.osjava.sj.SimpleContextFactory");
     System.setProperty(Context.URL_PKG_PREFIXES, "org.osjava.sj");
-    // System.setProperty("org.osjava.sj.jndi.shared", "true");
-    // System.setProperty("org.osjava.sj.directory", "META-INF");
+    System.setProperty("org.osjava.sj.jndi.shared", "true");
     System.setProperty("org.osjava.sj.root", "src/main/resources/META-INF");
+    // System.setProperty("org.osjava.sj.directory", "META-INF");
     System.setProperty("org.osjava.sj.delimiter", "/");
 
     try {
