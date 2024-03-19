@@ -1,6 +1,5 @@
-package com.bermaker;
+package com.bermaker.jndi;
 
-import org.osjava.sj.MemoryContextFactory;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -17,8 +16,6 @@ public class JndiDemo {
 
   public static void main(String[] args) {
     LOG.info("Start to running jndi ...");
-
-    MemoryContextFactory mf = null;
 
     System.setProperty("org.osjava.sj.jndi.trace", "true");
     System.setProperty(Context.INITIAL_CONTEXT_FACTORY, "org.osjava.sj.SimpleContextFactory");

@@ -1,4 +1,4 @@
-package com.bermaker;
+package com.bermaker.jdbc;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

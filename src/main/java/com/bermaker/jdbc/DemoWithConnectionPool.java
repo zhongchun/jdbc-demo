@@ -1,4 +1,4 @@
-package com.bermaker;
+package com.bermaker.jdbc;
 
 import com.zaxxer.hikari.HikariConfig;
 import com.zaxxer.hikari.HikariDataSource;
